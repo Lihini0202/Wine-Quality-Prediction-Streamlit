@@ -1,6 +1,6 @@
 streamlit==1.47.0
 pandas==2.2.2
-scikit-learn==1.4.2 # This is a common compatible version. If it still fails, use the exact version from your Colab's `!pip freeze | grep scikit-learn`
-seaborn==0.13.2 # Or the exact version from your Colab if different
-matplotlib==3.8.4 # Or the exact version from your Colab if different
+scikit-learn==1.4.2
+seaborn==0.13.2 
+matplotlib==3.8.4 
 numpy==2.0.2
