@@ -41,8 +41,8 @@ To run this Streamlit application on your local machine:
 
 1.  **Clone the Repository**:
     ```bash
-    git clone <https://github.com/Lihini0202/Streamlit-ML-Wine-Predictor.git>
-    cd <Streamlit-ML-Wine-Predictor>
+    git clone <https://github.com/Lihini0202/Wine-Quality-Prediction-Streamlit.git>
+    cd <Wine-Quality-Prediction-Streamlit>
     ```
 2.  **Create a Virtual Environment (Recommended)**:
     ```bash
