@@ -1,19 +1,6 @@
-streamlit
-pandas
-scikit-learn
-seaborn
-matplotlib
-numpy
-
-
-
-
-
-## Python Library Uses:
-
-* **`streamlit`**: This is a powerful, open-source Python library that allows you to **build interactive web applications for machine learning and data science** quickly and easily, without needing expertise in front-end development. In your project, it's used to create the user interface for your wine quality prediction app.
-* **`pandas`**: A fundamental library for **data manipulation and analysis**. It provides data structures like DataFrames, which are essential for cleaning, transforming, and working with tabular data (like your wine quality dataset). You use it to load the CSV, clean column names, and prepare your features and target variable.
-* **`scikit-learn`**: A comprehensive library for **machine learning tasks**. It provides a wide range of algorithms for classification (like Random Forest and Logistic Regression), regression, clustering, model selection (e.g., `train_test_split`, `cross_val_score`), and metrics (e.g., `accuracy_score`, `classification_report`, `confusion_matrix`). This is the core library for building and evaluating your predictive models.
-* **`seaborn`**: A Python data visualization library based on `matplotlib`. It provides a **high-level interface for drawing attractive and informative statistical graphics**. You use it in your Streamlit app for creating visualizations like correlation heatmaps, distribution plots, and box plots to explore your data.
-* **`matplotlib`**: A foundational plotting library for Python. It provides the **building blocks for creating static, interactive, and animated visualizations** in Python. While `seaborn` offers higher-level functions, `matplotlib` is often used under the hood by `seaborn` and directly when more customization is needed for plots (like your confusion matrix).
-* **`numpy`**: A core library for **numerical computing** in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. `pandas` and `scikit-learn` extensively rely on `numpy` for their underlying operations.
+streamlit==1.22.0 # Or whatever version you used
+pandas==1.5.3
+scikit-learn==1.2.2
+seaborn==0.12.2
+matplotlib==3.7.1
+numpy==1.23.5
