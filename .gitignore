@@ -1,0 +1,8 @@
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/.terraform
+terraform/.terraform.lock.hcl
+echo "terraform/*.tfstate" >> .gitignore
+echo "terraform/*.tfstate.*" >> .gitignore
+echo "terraform/.terraform" >> .gitignore
+echo "terraform/.terraform.lock.hcl" >> .gitignore
