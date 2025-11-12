@@ -35,7 +35,7 @@ y_pred_main_model = model.predict(X_test)
 
 # Layout
 st.set_page_config(page_title="Wine Quality Predictor", layout="wide")
-st.title("🍇 My LIVE Deployed Wine Predictor! 🚀)
+st.title("🍇 My LIVE Deployed Wine Predictor! 🚀")
 
 # Tabs
 tabs = st.tabs([
