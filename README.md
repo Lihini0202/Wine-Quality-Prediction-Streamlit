@@ -70,11 +70,6 @@ This application is designed for easy deployment on **Streamlit Cloud**. Simply 
 
 This project demonstrates a complete, professional **MLOps (Machine Learning Operations)** pipeline. A Scikit-learn model for predicting wine quality is containerized with **Docker**, deployed to **Microsoft Azure**, and managed using **Terraform (Infrastructure as Code)**.
 
-The live application is an interactive Streamlit dashboard where users can adjust sliders for physicochemical properties and get a real-time quality prediction from the deployed model.
-
-* **Live Demo:** `http://YOUR_LIVE_AZURE_IP_HERE:8501`
-
-
 
 ---
 
